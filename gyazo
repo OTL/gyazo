@@ -9,7 +9,7 @@ require 'net/http'
 
 # if you have ruby-gtk2, this copies url to the gtk clipboard
 begin
-  require 'gtk2ahoge'
+  require 'gtk2'
   has_gtk = true
 rescue LoadError
   has_gtk = false 
